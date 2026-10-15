@@ -36,6 +36,10 @@ PASS, STAT, LIST, UIDL, TOP, RETR, DELE, RSET, NOOP, QUIT, with DELE committed o
 discarded otherwise. STLS is refused. XDROPAFTER / XFAILNEXT / XSTATE work there too; a
 POP3 DELE + QUIT removes the message from INBOX for the IMAP side as well.
 """
+import utils.clients
+import utils.http_session
+import utils.transport
+import utils.session
 import base64, email, email.policy, re, select, socketserver, threading, time
 
 IMAP_PORT, POP3_PORT, SMTP_PORT = 1143, 1110, 2525

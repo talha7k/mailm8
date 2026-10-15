@@ -11,3 +11,5 @@
 
 # Portable brand archive; regenerate with python3 branding/source/package_brand.py
 branding/overlook-brand-kit.zip
+config.bat
+node_modules

@@ -151,3 +151,7 @@ Brand assets and the HTML design preview keep their existing maintenance command
   second line is "to …, cc …" only; a rule precedes each embedded message header in a body.
 
 - v0.4.1 published 2026-10-13 (rule before embedded message headers; sender address beside the name). Working version is now 0.4.2.
+
+- v0.4.2 published 2026-10-14 (Alexander theme, native message formatting, isolated Chromium rendering). The working version stayed at 0.4.2 by mistake until 1.5.0.
+
+- v1.5.0 published 2026-10-15: IMAP and POP3 accounts with SMTP sending (plan and milestones M0 to M5 in `imap-pop3-implementation-plan.md`: Add account dialog with autoconfig, IMAP read/write sync with IDLE and QRESYNC, POP3 with local-primary storage and retention, Back up mail, interoperability matrix). Real-server reading and writing was verified by the user against Fastmail only after release; the ignored real-server tests and `scripts/interop-matrix.sh` cover the rest. Working version is now 1.5.1.
